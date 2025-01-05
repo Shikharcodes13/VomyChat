@@ -1,0 +1,94 @@
+2025-01-06 00:25:25,164 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-06 00:25:25,165 - [33mPress CTRL+C to quit[0m
+2025-01-06 00:25:25,166 -  * Restarting with stat
+2025-01-06 00:25:26,765 -  * Debugger is active!
+2025-01-06 00:25:26,774 -  * Debugger PIN: 746-103-166
+2025-01-06 00:29:13,985 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-06 00:29:13,986 - [33mPress CTRL+C to quit[0m
+2025-01-06 00:29:13,989 -  * Restarting with stat
+2025-01-06 00:29:15,783 -  * Debugger is active!
+2025-01-06 00:29:15,793 -  * Debugger PIN: 746-103-166
+2025-01-06 00:29:53,593 - 127.0.0.1 - - [06/Jan/2025 00:29:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-01-06 00:29:53,859 - 127.0.0.1 - - [06/Jan/2025 00:29:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-06 00:30:06,640 - 127.0.0.1 - - [06/Jan/2025 00:30:06] "[33mGET / HTTP/1.1[0m" 404 -
+2025-01-06 00:31:05,091 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-06 00:31:05,091 - [33mPress CTRL+C to quit[0m
+2025-01-06 00:31:05,094 -  * Restarting with stat
+2025-01-06 00:31:06,436 -  * Debugger is active!
+2025-01-06 00:31:06,445 -  * Debugger PIN: 746-103-166
+2025-01-06 00:32:43,861 -  * Detected change in 'C:\\Users\\hp\\OneDrive\\Desktop\\Vomy Chat\\app.py', reloading
+2025-01-06 00:32:44,602 -  * Restarting with stat
+2025-01-06 00:35:32,835 - Error loading file Sample-Spreadsheet-100-rows.csv: 'utf-8' codec can't decode byte 0xae in position 265: invalid start byte
+2025-01-06 00:40:44,444 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 00:40:46,795 - Instructions parsed for file Sample-Spreadsheet-100-rows.csv: Please provide the data or context.  I need to know what data is in columns D and F before I can add them.  Are they in a spreadsheet, a database table, or something else?  Please share the relevant information.
+
+2025-01-06 00:40:46,798 - Error executing instructions for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 00:47:52,809 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 00:47:54,865 - Instructions parsed for file Sample-Spreadsheet-100-rows.csv: ```python
+df['F'] = 0 
+```
+
+2025-01-06 00:47:54,865 - Error executing instructions for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 00:55:06,239 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 00:55:07,817 - Error parsing instructions for file Sample-Spreadsheet-100-rows.csv: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-01-06 00:56:53,792 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 00:56:55,957 - Generated query for file Sample-Spreadsheet-100-rows.csv: ```python
+import pandas as pd
+
+df = pd.read_csv("your_file.csv")
+
+df['D'] = 0
+df['F'] = 0
+
+df.to_csv("your_file_updated.csv", index=False)
+```
+
+2025-01-06 00:56:55,958 - Error executing query for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 01:01:54,633 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 01:01:56,787 - Generated query for file Sample-Spreadsheet-100-rows.csv: ```python
+import pandas as pd
+
+df = pd.read_csv('your_file.csv')
+
+df['D'] = 0
+df['F'] = 0
+
+df.to_csv('your_file_updated.csv', index=False)
+```
+
+2025-01-06 01:01:56,788 - Error executing query for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 01:08:32,508 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 01:08:34,541 - Generated query for file Sample-Spreadsheet-100-rows.csv: ```python
+import pandas as pd
+
+df = pd.read_csv('your_file.csv')
+print(df['A'])
+
+```
+
+2025-01-06 01:08:34,542 - Error executing query for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 01:12:32,018 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 01:12:33,902 - Generated query for file Sample-Spreadsheet-100-rows.csv: ALTER TABLE your_table_name DROP COLUMN A;
+
+2025-01-06 01:12:33,904 - Error executing query for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 01:17:09,450 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 01:17:11,292 - Generated query for file Sample-Spreadsheet-100-rows.csv: ALTER TABLE your_table_name DROP COLUMN A;
+
+2025-01-06 01:17:11,292 - Error executing query for file Sample-Spreadsheet-100-rows.csv: invalid syntax (<string>, line 1)
+2025-01-06 01:27:52,422 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 01:27:54,343 - Generated query for file Sample-Spreadsheet-100-rows.csv: ALTER TABLE your_table_name DROP COLUMN A;
+
+2025-01-06 01:27:54,346 - Column A does not exist in the DataFrame.
+2025-01-06 01:27:54,346 - Executed modifications successfully for file Sample-Spreadsheet-100-rows.csv.
+2025-01-06 01:27:54,352 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_Sample-Spreadsheet-100-rows.csv.
