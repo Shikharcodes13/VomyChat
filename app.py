@@ -127,3 +127,4 @@ if __name__ == "__main__":
         print("All files processed. Check the output directory.")
     except Exception as e:
         print(f"Error: {str(e)}")
+

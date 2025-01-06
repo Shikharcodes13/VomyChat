@@ -70,4 +70,5 @@ Before running the script, make sure to install the required dependencies by run
 pip install -r requirements.txt
 python app.py 
 
+![Alt text](C:\Users\hp\OneDrive\Desktop\Vomy Chat\requirement.txt)
 
