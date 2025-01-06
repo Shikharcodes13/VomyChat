@@ -92,3 +92,135 @@ print(df['A'])
 2025-01-06 01:27:54,346 - Column A does not exist in the DataFrame.
 2025-01-06 01:27:54,346 - Executed modifications successfully for file Sample-Spreadsheet-100-rows.csv.
 2025-01-06 01:27:54,352 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_Sample-Spreadsheet-100-rows.csv.
+2025-01-06 13:41:51,084 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 13:41:53,016 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN B;
+
+2025-01-06 13:41:53,019 - Column B does not exist in the DataFrame.
+2025-01-06 13:41:53,020 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 13:41:53,073 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 13:50:45,910 - Error loading file business-financial-data-sep-2024-quarter-csv.csv: [Errno 22] Invalid argument: 'input_directory\x08usiness-financial-data-sep-2024-quarter-csv.csv'
+2025-01-06 13:51:10,694 - Error loading file business-financial-data-sep-2024-quarter-csv.csv: [Errno 22] Invalid argument: 'input_directory\x08usiness-financial-data-sep-2024-quarter-csv.csv'
+2025-01-06 14:01:40,231 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:01:42,108 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN period;
+
+2025-01-06 14:01:42,119 - Column period does not exist in the DataFrame.
+2025-01-06 14:01:42,119 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:01:42,171 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:02:58,862 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:03:00,725 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN period;
+
+2025-01-06 14:03:00,725 - Column period does not exist in the DataFrame.
+2025-01-06 14:03:00,726 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:03:00,772 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:05:36,393 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:05:38,270 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name ADD COLUMN Data_value VARCHAR(255);
+
+2025-01-06 14:05:38,270 - Instruction not implemented for Pandas operations.
+2025-01-06 14:05:38,270 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:05:38,312 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:06:31,554 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:06:33,391 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN Period;
+
+2025-01-06 14:06:33,403 - Column Period dropped successfully.
+2025-01-06 14:06:33,403 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:06:33,442 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:07:25,671 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:07:27,449 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN STATUS;
+
+2025-01-06 14:07:27,451 - Column STATUS dropped successfully.
+2025-01-06 14:07:27,451 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:07:27,494 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:08:44,105 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:08:45,945 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE Data_value ADD COLUMN Period VARCHAR(255);
+
+2025-01-06 14:08:45,945 - Instruction not implemented for Pandas operations.
+2025-01-06 14:08:45,945 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:08:45,999 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:59:51,441 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 14:59:53,356 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN period;
+
+2025-01-06 14:59:53,397 - Column period does not exist in the DataFrame.
+2025-01-06 14:59:53,398 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 14:59:53,495 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:00:50,881 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:00:52,734 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ALTER TABLE your_table_name DROP COLUMN Period;
+
+2025-01-06 15:00:52,747 - Column Period dropped successfully.
+2025-01-06 15:00:52,748 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:00:52,809 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:03:52,778 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:03:54,728 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: SELECT * FROM your_table_name WHERE STATUS = 'R';
+
+2025-01-06 15:03:54,728 - Instruction not implemented for Pandas operations.
+2025-01-06 15:03:54,728 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:03:54,803 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:08:15,334 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:08:17,382 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: =FILTER(A:Z,A:A<>"Period")
+
+2025-01-06 15:08:17,382 - Instruction not implemented for Pandas operations.
+2025-01-06 15:08:17,383 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:08:17,500 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:13:05,729 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:13:07,841 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ```excel
+=FILTER(A:Z, NOT(COLUMN(A:Z)=COLUMN(Period)))
+```
+2025-01-06 15:13:07,841 - Instruction not implemented for Pandas operations.
+2025-01-06 15:13:07,842 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:13:07,929 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:19:47,144 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:19:49,061 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ```python
+df = df.drop(columns=['Period'])
+```
+
+2025-01-06 15:19:49,062 - Instruction not implemented for Pandas operations.
+2025-01-06 15:19:49,062 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:19:49,126 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:20:30,642 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:20:32,468 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ```python
+df = df.drop(columns=['Period'])
+```
+
+2025-01-06 15:20:32,470 - Instruction not implemented for Pandas operations.
+2025-01-06 15:20:32,470 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:20:32,530 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:22:32,265 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:22:34,246 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: ```python
+df = df.drop(columns=['Period'])
+```
+
+2025-01-06 15:22:34,247 - Error executing the instruction: ```python
+df = df.drop(columns=['Period'])
+```
+. Error: invalid syntax (<string>, line 1)
+2025-01-06 15:22:34,247 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:22:34,308 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:25:16,197 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:25:17,331 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: df = df.drop(columns=['Period'])
+2025-01-06 15:25:17,344 - Executed the following Pandas operation: df = df.drop(columns=['Period'])
+2025-01-06 15:25:17,345 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:25:17,443 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:27:55,042 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:27:56,939 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: df[df['STATUS'] == 'F']
+2025-01-06 15:27:56,952 - Executed the following Pandas operation: df[df['STATUS'] == 'F']
+2025-01-06 15:27:56,952 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:27:57,043 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:31:54,297 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:31:56,339 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: df = df[df['status'] != 'R']
+2025-01-06 15:31:56,345 - Error executing the instruction: df = df[df['status'] != 'R']. Error: 'status'
+2025-01-06 15:31:56,345 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:31:56,513 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:32:50,456 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:32:52,291 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: df = df[df['STATUS'] != 'R']
+2025-01-06 15:32:52,324 - Executed the following Pandas operation: df = df[df['STATUS'] != 'R']
+2025-01-06 15:32:52,325 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:32:52,395 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:35:45,447 - File business-financial-data-sep-2024-quarter-csv.csv uploaded and loaded successfully.
+2025-01-06 15:35:47,348 - Generated query for file business-financial-data-sep-2024-quarter-csv.csv: df.drop_duplicates(inplace=True)
+2025-01-06 15:35:47,380 - Executed the following Pandas operation: df.drop_duplicates(inplace=True)
+2025-01-06 15:35:47,381 - Executed modifications successfully for file business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:35:47,557 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_business-financial-data-sep-2024-quarter-csv.csv.
+2025-01-06 15:35:47,640 - File Sample-Spreadsheet-100-rows.csv uploaded and loaded successfully.
+2025-01-06 15:35:48,202 - Generated query for file Sample-Spreadsheet-100-rows.csv: df.drop_duplicates(inplace=True)
+2025-01-06 15:35:48,206 - Executed the following Pandas operation: df.drop_duplicates(inplace=True)
+2025-01-06 15:35:48,206 - Executed modifications successfully for file Sample-Spreadsheet-100-rows.csv.
+2025-01-06 15:35:48,213 - Modified file saved as C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory\modified_Sample-Spreadsheet-100-rows.csv.

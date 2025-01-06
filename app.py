@@ -21,37 +21,35 @@ genai.configure(api_key=GENAI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def parse_instructions(user_prompt):
-    """Use Gemini AI to parse user instructions into an SQL query."""
+    """Use Gemini AI to parse user instructions into Pandas DataFrame operations."""
     template = (
-        "You are an AI that generates SQL queries to manipulate a database table. "
-        "The user will specify an operation to perform, such as adding columns, filtering rows, or removing duplicates. "
-        "Your task is to generate only the SQL query that performs the requested operation. "
-        "Do not include any code or descriptions, just the SQL query."
+        "You are an AI that generates Python code snippets for manipulating Pandas DataFrames. "
+        "The user will specify an operation to perform, such as adding columns, filtering rows, "
+        "removing duplicates, or dropping columns. Your task is to generate only the Pandas code "
+        "snippet that performs the requested operation on a DataFrame named 'df'. "
+        "Do not include any descriptions, just the Python code snippet."
     )
     full_prompt = f"{template}\n\nUser request: {user_prompt}"
     response = model.generate_content(full_prompt)
-    print(response)
-    return response.text
+    code_snippet = response.text.strip().strip('```').replace("python", "").strip()
+    print(code_snippet)
+    return code_snippet
+
+
 
 def execute_modifications(df, instructions):
-    """Modify the DataFrame based on user instructions."""
-    if "DROP COLUMN" in instructions.upper():
-        # Extract the column name to drop
-        import re
-        match = re.search(r"DROP COLUMN (\w+);", instructions, re.IGNORECASE)
-        if match:
-            column_to_drop = match.group(1)
-            if column_to_drop in df.columns:
-                df = df.drop(columns=[column_to_drop])
-                log_action(f"Column {column_to_drop} dropped successfully.")
-            else:
-                log_action(f"Column {column_to_drop} does not exist in the DataFrame.")
-        else:
-            log_action("Failed to parse the column to drop.")
-    else:
-        log_action("Instruction not implemented for Pandas operations.")
-    
+    """Modify the DataFrame using dynamically generated Pandas code."""
+    try:
+        # Execute the generated Pandas code snippet
+        local_vars = {"df": df}
+        exec(instructions, {}, local_vars)
+        df = local_vars["df"]
+        log_action(f"Executed the following Pandas operation: {instructions}")
+    except Exception as e:
+        log_action(f"Error executing the instruction: {instructions}. Error: {str(e)}")
     return df
+
+
 
 def modify_files(input_directory, output_directory, instructions):
     """Modify CSV/Excel files based on user instructions."""
@@ -79,6 +77,7 @@ def modify_files(input_directory, output_directory, instructions):
                     encoding = detector.result['encoding'] or 'ISO-8859-1'
 
                 df = pd.read_csv(file_path, encoding=encoding)
+
             elif file_name.endswith(".xlsx"):
                 df = pd.read_excel(file_path)
             else:
@@ -119,7 +118,6 @@ def modify_files(input_directory, output_directory, instructions):
             continue
 
 if __name__ == "__main__":
-    # Example usage
     input_dir = r"C:\Users\hp\OneDrive\Desktop\Vomy Chat\input_directory"
     output_dir = r"C:\Users\hp\OneDrive\Desktop\Vomy Chat\output_directory"
     user_instructions = input("Enter the instructions for modifying the files: ").strip()
