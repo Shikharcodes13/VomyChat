@@ -1,6 +1,9 @@
 Working Video link:
 https://drive.google.com/file/d/1cMQtRBSekrinc5jLg-_59zYnYmO98Snv/view?usp=drive_link
 
+![Alt text](Vomy.png)
+
+
 # File Modification and DataFrame Manipulation Script
 
 This Python script allows you to modify CSV and Excel files based on user-provided instructions. The script uses the Google Gemini API (AI model) to generate Python code snippets for manipulating data in Pandas DataFrames. It supports both applying the same instructions to multiple files or allowing users to provide individual instructions for each file.
@@ -70,5 +73,4 @@ Before running the script, make sure to install the required dependencies by run
 pip install -r requirements.txt
 python app.py 
 
-![Alt text](Vomy.png)
 
